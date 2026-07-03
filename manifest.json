@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Remime",
+  "version": "1.0",
+  "description": "A beautiful popup with a clock and daily focus list.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "128": "icon.svg"
+  }
+}

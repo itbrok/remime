@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remime</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="content-container">
+        <div class="clock" id="clock">00:00</div>
+        <div class="greeting" id="greeting">Good day.</div>
+        
+        <div class="todo-container">
+            <h3>Today's Focus</h3>
+            <ul id="todo-list">
+                <!-- Todo items will be injected here -->
+            </ul>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="What is your main focus for today?" autocomplete="off">
+            </form>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
