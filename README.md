@@ -18,7 +18,7 @@ Currently, Remime is not available on the Chrome Web Store, but you can easily i
 
 1. **Download the project:** Clone this repository or download the ZIP file and extract it.
    ```bash
-   git clone https://github.com/yourusername/remime.git
+   git clone https://github.com/itbrok/remime.git
    ```
 2. **Open Chrome Extensions:** Open Google Chrome and navigate to `chrome://extensions/` in your address bar.
 3. **Enable Developer Mode:** In the top right corner of the Extensions page, toggle the **"Developer mode"** switch to ON.
