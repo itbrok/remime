@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoListElement = document.getElementById('todo-list');
     const todoForm = document.getElementById('todo-form');
     const todoInput = document.getElementById('todo-input');
-    const searchForm = document.getElementById('search-form');
-    const searchInput = document.getElementById('search-input');
     const factTextElement = document.getElementById('fact-text');
     const levelBadge = document.getElementById('level-badge');
     const streakBadge = document.getElementById('streak-badge');
@@ -222,15 +220,6 @@ document.addEventListener('DOMContentLoaded', () => {
         todoInput.value = ''; // clear input
     });
 
-    // --- Search Logic ---
-    searchForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const query = searchInput.value.trim();
-        if (query) {
-            window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
-            searchInput.value = '';
-        }
-    });
 
     // --- Learn Logic ---
     async function fetchFact() {
