@@ -7,6 +7,9 @@
     "default_popup": "popup.html",
     "default_icon": "icon.svg"
   },
+  "host_permissions": [
+    "https://uselessfacts.jsph.pl/*"
+  ],
   "permissions": [
     "storage"
   ],

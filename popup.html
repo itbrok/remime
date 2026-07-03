@@ -9,9 +9,20 @@
 <body>
     <div class="background-container"></div>
     <div class="content-container">
+        <div class="gamification-header">
+            <div class="level-badge" id="level-badge">Lv. 1</div>
+            <div class="streak-badge" id="streak-badge">🔥 0</div>
+        </div>
+        <div class="xp-container">
+            <div class="xp-bar-outer">
+                <div class="xp-bar-inner" id="xp-bar-inner"></div>
+            </div>
+            <div class="xp-text" id="xp-text">0 / 100 XP</div>
+        </div>
         <div class="clock" id="clock">00:00</div>
         <div class="greeting" id="greeting">Good day.</div>
         
+
         <div class="todo-container">
             <h3>Today's Focus</h3>
             <ul id="todo-list">
@@ -20,6 +31,11 @@
             <form id="todo-form">
                 <input type="text" id="todo-input" placeholder="What is your main focus for today?" autocomplete="off">
             </form>
+        </div>
+
+        <div id="fact-container" class="fact-container">
+            <p class="fact-label">Did you know?</p>
+            <p id="fact-text" class="fact-text">Loading a fun fact...</p>
         </div>
     </div>
     <script src="popup.js"></script>
